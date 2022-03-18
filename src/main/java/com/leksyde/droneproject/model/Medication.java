@@ -22,7 +22,7 @@ public class Medication extends AbstractEntity{
 
     @NotNull
     @Lob
-    String image;
+    byte[] image;
 
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
