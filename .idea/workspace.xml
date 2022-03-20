@@ -4,48 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2ef0b4e-c0f1-44e4-8233-5b3d97673ecf" name="Changes" comment="created updated controllers and exception handling">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_58.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_58.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_58.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leksyde/droneproject/controller/DeamonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leksyde/droneproject/exception/DroneBatteryLowException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leksyde/droneproject/exception/DroneNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leksyde/droneproject/exception/DroneOverloadedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leksyde/droneproject/model/DroneModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leksyde/droneproject/response/StatusMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TheDroneProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TheDroneProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_16.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DroneProject.iml" beforeDir="false" />
+    <list default="true" id="d2ef0b4e-c0f1-44e4-8233-5b3d97673ecf" name="Changes" comment="UPDATED README.md">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leksyde/droneproject/DroneProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leksyde/droneproject/DroneProjectApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leksyde/droneproject/controller/DroneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leksyde/droneproject/controller/DroneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leksyde/droneproject/model/Drone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leksyde/droneproject/model/Drone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leksyde/droneproject/model/Medication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leksyde/droneproject/model/Medication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leksyde/droneproject/repo/DroneRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leksyde/droneproject/repo/DroneRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leksyde/droneproject/service/DroneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leksyde/droneproject/service/DroneService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leksyde/droneproject/DroneProjectApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leksyde/droneproject/DroneProjectApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leksyde/droneproject/controller/DroneController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leksyde/droneproject/controller/DroneController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leksyde/droneproject/model/Drone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leksyde/droneproject/model/Drone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leksyde/droneproject/model/Medication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leksyde/droneproject/model/Medication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leksyde/droneproject/repo/DroneRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leksyde/droneproject/repo/DroneRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leksyde/droneproject/service/DroneService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leksyde/droneproject/service/DroneService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +93,7 @@
       <updated>1647634529280</updated>
       <workItem from="1647634536709" duration="183000" />
       <workItem from="1647634814295" duration="3997000" />
-      <workItem from="1647641059925" duration="29778000" />
+      <workItem from="1647641059925" duration="30064000" />
     </task>
     <task id="LOCAL-00001" summary="created the drone model entity">
       <created>1647636091536</created>
@@ -163,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647638467860</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="UPDATED README.md">
+      <created>1647772512978</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1647772512979</updated>
+    </task>
+    <task id="LOCAL-00006" summary="UPDATED README.md">
+      <created>1647772618391</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1647772618391</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +159,7 @@
     <MESSAGE value="Created the medication entity, relationships and added validation" />
     <MESSAGE value="Created repository and service layer" />
     <MESSAGE value="created updated controllers and exception handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="created updated controllers and exception handling" />
+    <MESSAGE value="UPDATED README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATED README.md" />
   </component>
 </project>

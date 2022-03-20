@@ -71,3 +71,10 @@ request body
 **CHECKING AVAILABLE DRONE FOR LOADING**
 
 `GET  /search-drone?state=IDLE`
+
+
+
+Accessing DB
+visit _/h2-console_ via the console
+username: sa
+password: password
