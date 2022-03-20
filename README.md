@@ -3,6 +3,8 @@ Useful drone functions include delivery of small items that are (urgently) neede
 
 Running the API
 
+Download and unzip
+
 `mvn clean install`
 
 `mvn spring-boot:run`
