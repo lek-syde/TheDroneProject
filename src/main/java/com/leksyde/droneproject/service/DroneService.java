@@ -1,14 +1,15 @@
 package com.leksyde.droneproject.service;
 
 import com.leksyde.droneproject.model.Drone;
+import com.leksyde.droneproject.model.State;
 import com.leksyde.droneproject.repo.DroneRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.Set;
+
 @Service
 public class DroneService {
 
@@ -19,7 +20,8 @@ public class DroneService {
     }
 
 
-    public Drone createDrone(Drone entity) {
+    public Drone updateDrone(Drone entity) {
+        entity.setState(State.IDLE);
         return droneRepository.save(entity);
     }
 
@@ -35,5 +37,16 @@ public class DroneService {
         return (int) droneRepository.count();
     }
 
+    public Optional<Drone> findById(long id){
+      return  droneRepository.findById(id);
+    }
 
+
+    public List<Drone> findByState(State state){
+        return  droneRepository.findByState(state);
+    }
+
+    public List<Drone> findAll() {
+        return droneRepository.findAll();
+    }
 }
